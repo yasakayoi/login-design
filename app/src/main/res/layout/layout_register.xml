@@ -65,6 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dip"
             android:background="#ea4c88"
+            android:onClick="btn_SignUp"
             android:text="@string/btn_register"
             android:textColor="@color/white" />
 
@@ -77,6 +78,7 @@
             android:layout_marginTop="40dip"
             android:background="@null"
             android:text="@string/btn_link_to_login"
+            android:onClick="btn_toLogin"
             android:textAllCaps="false"
             android:textColor="@color/white"
             android:textSize="15dp" />
